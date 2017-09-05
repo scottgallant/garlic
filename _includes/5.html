@@ -1,0 +1,19 @@
+<section id="five" class="block">
+  <div class="background {% if include.image %} image {% endif %}" style="{% if include.image %}background-image: url({{ include.image }});{% endif %}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text" style="{% if include.text-align %}text-align:{{ include.text-align }};{% endif %}">
+            <h2 style="{% if include.color %}color:{{ include.color }};{% endif %}">{% if include.h2 %}{{ include.h2 }}{% else %}Scelerisque consectetur et{% endif %}</h2>
+            {% if include.p %}
+              <p style="{% if include.color %}color:{{ include.color }};{% endif %}">{{ include.p }}</p>
+            {% else %}
+              <p style="{% if include.color %}color:{{ include.color }};{% endif %}">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod.  </p>
+              <p style="{% if include.color %}color:{{ include.color }};{% endif %}">Etiam porta sem malesuada magna mollis euismod.  </p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

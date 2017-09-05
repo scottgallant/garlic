@@ -1,0 +1,19 @@
+.block {
+	margin: 8rem 0;
+
+	&.remove-bottom-margin {
+		margin-bottom: 1rem;
+	}
+
+	&.remove-top-margin {
+		margin-top: 1rem;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:nth-child(2) {
+		margin-top: 0;
+	}
+}

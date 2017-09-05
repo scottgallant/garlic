@@ -1,0 +1,39 @@
+#four {
+  .icon {
+    // background: lighten($light-green, 2%);
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    position: relative;
+    // border: 1px solid lighten($black, 70%);
+  }
+
+  i {
+    display: block;
+    font-size: 2em;
+    color: lighten($black, 10%);
+    position: absolute;
+    line-height: 10rem; // must match height of container
+    /* left: 50%; */
+    /* top: 50%; */
+    /* margin-left: -1rem; */
+    /* margin-top: -1rem; */
+    text-align: center;
+    width: 100%;
+  }
+
+  h2 {
+    color: #597E5C;
+    font-size: 1.2em;
+    margin-top: 0;
+    font-family: "Avenir";
+    // text-align: center;
+  }
+
+  p {
+    // text-align: center;
+  }
+}
