@@ -1,4 +1,4 @@
-<section id="five" class="block">
+<section class="block {% if include.class %}{{ include.class }}{% endif %}" id="five">
   <div class="background {% if include.image %} image {% endif %}" style="{% if include.image %}background-image: url({{ include.image }});{% else %} background:{{ include.background }};{% endif %}">
     <div class="container">
       <div class="row">

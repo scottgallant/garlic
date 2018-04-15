@@ -2,18 +2,14 @@
 	margin: 8rem 0;
 
 	&.remove-bottom-margin {
-		margin-bottom: 1rem;
+		margin-bottom: 0;
 	}
 
 	&.remove-top-margin {
-		margin-top: 1rem;
-	}
-
-	&:first-child {
 		margin-top: 0;
 	}
 
-	&:nth-child(2) {
+	&:first-child {
 		margin-top: 0;
 	}
 }
